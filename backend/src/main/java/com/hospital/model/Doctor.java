@@ -30,7 +30,6 @@ public class Doctor {
     @Column(name = "crm_state")
     private String crmState;
     
-    @Column(name = "specialties")
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "doctor_specialties", joinColumns = @JoinColumn(name = "doctor_id"))
     @Column(name = "specialty")
