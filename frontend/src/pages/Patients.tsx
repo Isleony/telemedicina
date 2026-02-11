@@ -2,7 +2,7 @@ import { Search, Plus, Edit, Eye } from 'lucide-react'
 
 export default function Patients() {
   return (
-    <div className="p-8">
+    <div className="p-8 bg-gray-100 min-h-screen">
       <div className="mb-8 flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-gray-800">Pacientes</h1>

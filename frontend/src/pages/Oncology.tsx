@@ -2,7 +2,7 @@ import { Activity, Calendar, TrendingUp, AlertCircle } from 'lucide-react'
 
 export default function Oncology() {
   return (
-    <div className="p-8">
+    <div className="p-8 bg-gray-100 min-h-screen">
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-800">Oncologia</h1>
         <p className="text-gray-600">Gestão de tratamentos oncológicos</p>

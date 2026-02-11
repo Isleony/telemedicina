@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Router>
-      <div className="flex h-screen bg-gray-50">
+      <div className="flex h-screen bg-gray-100">
         {/* Sidebar */}
         <aside className={`${sidebarOpen ? 'w-64' : 'w-20'} bg-primary-700 text-white transition-all duration-300 flex flex-col`}>
           <div className="p-4 flex items-center justify-between">
@@ -55,7 +55,7 @@ function App() {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 overflow-auto">
+        <main className="flex-1 overflow-auto bg-gray-100">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/pacientes" element={<Patients />} />
